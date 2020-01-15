@@ -61,6 +61,7 @@ Form3 temp = new Form3();
  Form secundar:
  ![ds](https://github.com/steaumihai/ThreadDesenare/blob/master/Screen/2020-01-15%20(6)_LI.jpg "secondform")
  
+ Pentru a creea, pop-up cu mesaj/ codul pentru casuța care se deschide când apăsăm butonul de închidere
   if (MessageBox.Show("Repornire program. Confirm?", "Inchidere Program", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 MessageBox.Show("Programul s-a repornit cu succes.", "Program inchis!", MessageBoxButtons.OK);
