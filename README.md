@@ -1,1 +1,41 @@
 # ThreadDesenare
+
+### Nume Proiect: Desenare prin fire de executie
+
+##### Autor: STEAU MIHAI LUCIAN
+
+##### Descriere: 
+ ######  -_prin acest proiect, putem întelege mai bine ce însemnă firele de execuție, cum funcționează și ce avantaje au.Ideea proiectul a plecat de la un laborator, urmând ca mai apoi să îl îmbunătățesc._
+
+##### Proiectul conține:
+
+1: buton pentru oprire program/ stop
+
+2: buton pentru curătare/ restart
+
+3: buton pentru schimbare formuri / Form1, Form 3
+
+4: butoane pentru activare thread-uri
+
+##### Tehnologii folosite: Microsoft Visual Studio Community 2019 Version 16.4.2  C#
+
+##### Biblioteci externe:
+
+ [Desenare elipsa](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.graphics.drawellipse?view=netframework-4.8)
+ 
+ [Desenare dreptunghi/patrat](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.graphics.drawrectangle?view=netframework-4.8)
+ 
+ [Schimbare form cu ajutorul butoanelor](https://www.experts-exchange.com/questions/23839339/Switching-between-Forms-in-C.html)
+ 
+ [Despre fire de executie](https://www.pluralsight.com/guides/how-to-write-your-first-multi-threaded-application-with-c)
+ 
+ [Exemplu de thread](https://www.c-sharpcorner.com/article/understanding-multithreading-and-multitasking-in-c-sharp/)
+ 
+ [Fire de executie-principii](http://marvinproject.sourceforge.net/en/tutorials/03_multithreading/multithreading.html)
+ 
+[Teorie](https://foxlearn.com/articles/multi-threading-in-csharp.html)
+
+##### Biblioteci interne: bucăți de cod din proiecte mai vechi și teme de laborator
+
+#### Cum se compilează/ rulează:
+
