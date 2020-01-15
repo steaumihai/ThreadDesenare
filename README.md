@@ -46,6 +46,6 @@ După pornirea aplicației, utilizatorul poate să exploreze și să testeze cu 
 _În imaginea de mai în sus putem vedea că deși încă rulează firele de execuție, la apăsarea butonului de Stop, va apărea un pop-up dacă
 chiar suntem siguri că dorim să oprim procesul. Dacă da, atunci se vor opri toate firele de executie._
 
-![schimbare](https://github.com/steaumihai/ThreadDesenare/blob/master/Screen/2020-01-15%20(5)_LI.jpg "form")
 Prin apăsarea butonului, se va asunde primul form și va apărea al doilea și viceversa.
-P.S.: A se vedea likul din biblioteca externa, pentru a intelege codul de schimbare
+
+#### A se vedea likul din biblioteca externa, pentru a intelege codul de schimbare
