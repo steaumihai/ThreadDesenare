@@ -44,8 +44,20 @@ După pornirea aplicației, utilizatorul poate să exploreze și să testeze cu 
 ![pornire](https://github.com/steaumihai/ThreadDesenare/blob/master/Screen/2020-01-15%20(4)_LI.jpg "butoane")
 
 _În imaginea de mai în sus putem vedea că deși încă rulează firele de execuție, la apăsarea butonului de Stop, va apărea un pop-up dacă
-chiar suntem siguri că dorim să oprim procesul. Dacă da, atunci se vor opri toate firele de executie._
+chiar suntem siguri că dorim să oprim procesul. Dacă da, atunci se vor opri toate firele de executie._ 
 
+![Schimbare](https://github.com/steaumihai/ThreadDesenare/blob/master/Screen/2020-01-15%20(5)_LI.jpg "swich")
 Prin apăsarea butonului, se va asunde primul form și va apărea al doilea și viceversa.
 
 #### A se vedea likul din biblioteca externa, pentru a intelege codul de schimbare
+
+![Schimare](https://github.com/steaumihai/ThreadDesenare/blob/master/Screen/2020-01-15%20(8).png "swch")
+
+Form3 temp = new Form3();
+            temp.Region = this.Region;
+            temp.Show();
+            this.Hide();
+            
+ Form secundar:
+ ![ds](https://github.com/steaumihai/ThreadDesenare/blob/master/Screen/2020-01-15%20(6)_LI.jpg "secondform")
+ 
