@@ -53,22 +53,34 @@ Prin apăsarea butonului, se va asunde primul form și va apărea al doilea și 
 
 ![Schimare](https://github.com/steaumihai/ThreadDesenare/blob/master/Screen/2020-01-15%20(8).png "swch")
 
-Form3 temp = new Form3();
+      Form3 temp = new Form3();
             temp.Region = this.Region;
             temp.Show();
             this.Hide();
-            
+    
+    
  Form secundar:
  ![ds](https://github.com/steaumihai/ThreadDesenare/blob/master/Screen/2020-01-15%20(6)_LI.jpg "secondform")
  
- Pentru a creea, pop-up cu mesaj/ codul pentru casuța care se deschide când apăsăm butonul de închidere
-  if (MessageBox.Show("Repornire program. Confirm?", "Inchidere Program", MessageBoxButtons.YesNo) == DialogResult.Yes)
+ #### Pentru a creea, pop-up cu mesaj/ codul pentru casuța care se deschide când apăsăm butonul de închidere
+ 
+ 
+    if (MessageBox.Show("Inchidere program. Confirm?", "Inchidere Program", MessageBoxButtons.YesNo) == DialogResult.Yes)
+ 
             {
-                MessageBox.Show("Programul s-a repornit cu succes.", "Program inchis!", MessageBoxButtons.OK);
+           
+                MessageBox.Show("Programul se va inchide cu succes.", "Program inchis!", MessageBoxButtons.OK);
+             
                 System.Windows.Forms.Application.Restart();
+             
             }
+         
             else
-            {
-                this.Activate();
+          
+           {
+           
+               this.Activate();
+            
             }
+           
  
