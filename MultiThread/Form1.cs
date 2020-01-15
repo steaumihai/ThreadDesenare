@@ -129,7 +129,7 @@ namespace MultiThread
         private void stop_Click(object sender, EventArgs e)
         {
             //buton pentru exit
-            if (MessageBox.Show("Se va inchide tot programul. Confirm?", "Inchidere Program", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show("Se va inchide tot programul. Confirmi?", "Inchidere Program", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 MessageBox.Show("Programul se va inchide.", "Program inchis!", MessageBoxButtons.OK);
                 System.Windows.Forms.Application.Exit();
@@ -143,9 +143,9 @@ namespace MultiThread
         private void button4_Click(object sender, EventArgs e)
         {
             //repornire program
-            if (MessageBox.Show("Repornire program. Confirm?", "Inchidere Program", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show("Repornire program. Confirmi?", "REPORNIRE", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                MessageBox.Show("Programul s-a repornit cu succes.", "Program inchis!", MessageBoxButtons.OK);
+                MessageBox.Show("Programul va reporni in cateva momente.", "Program repornit!", MessageBoxButtons.OK);
                 System.Windows.Forms.Application.Restart();
             }
             else
